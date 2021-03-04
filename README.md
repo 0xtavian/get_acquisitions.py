@@ -65,7 +65,7 @@ python3 get_acquisitions.py -d hackerone.com -e [redacted] -p [redacted] | jq
 ```
 
 ```
-python3 get_acquisitions.py -d hackerone.com -e [redacted] -p [redacted] | jq
+python3 get_acquisitions.py -d verizon.com -e [redacted] -p [redacted] | jq
 {
   "records": [
     {
