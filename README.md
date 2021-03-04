@@ -1,5 +1,26 @@
+# get_free_acquisitions.py
+Supply a domain to retrieve the first 10 acquisitions for free. If you get blocked, delete `driver.close() driver.quit()` rerun and solve captcha.
+
+```
+python3 get_free_acquisition.py -h
+usage: get_free_acquisition.py [-h] [-d D]
+
+Enter Company Name To Query. i.e verzion, gamestop,facebook
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -d D
+```
+
+```
+python3 get_free_acquisition.py -d verizon 
+Skyward acquired by Verizon Wireless 
+SocialRadar acquired by Verizon Wireless 
+GTE Corporation acquired by Verizon Wireless 
+```
+
 # get_acquisitions.py
-Supply a domain and retrieve acquisitions details. [SurfaceBrowser by Security Trails required](https://securitytrails.com/corp/surfacebrowser).
+Supply a domain to retrieve acquisitions details. [SurfaceBrowser by Security Trails required](https://securitytrails.com/corp/surfacebrowser).
 
 ```
 python3 get_acquisitions.py --help                                                                          
