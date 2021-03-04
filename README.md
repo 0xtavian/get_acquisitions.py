@@ -5,7 +5,7 @@ Supply a domain to retrieve the first 10 acquisitions for free. If you get block
 python3 get_free_acquisition.py -h
 usage: get_free_acquisition.py [-h] [-d D]
 
-Enter Company Name To Query. i.e verzion, gamestop,facebook
+Enter Company Name To Query. e.g verizon, gamestop, facebook
 
 optional arguments:
   -h, --help  show this help message and exit
