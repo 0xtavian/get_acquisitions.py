@@ -20,7 +20,7 @@ GTE Corporation acquired by Verizon Wireless
 ```
 
 # get_acquisitions.py
-Supply a domain to retrieve acquisitions details. [SurfaceBrowser by Security Trails required](https://securitytrails.com/corp/surfacebrowser).
+Supply a domain to retrieve acquisitions details. [SurfaceBrowser by SecurityTrails required](https://securitytrails.com/corp/surfacebrowser).
 
 ```
 python3 get_acquisitions.py --help                                                                          
